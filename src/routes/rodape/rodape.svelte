@@ -4,7 +4,9 @@
 		class="logo"
 		src="/Campus São Gonçalo do Amarante - Logo_Negat Hor.png"
 		alt="Logo do campus"/> 
+        
     </p>
+
     <br>
     <p class="copy">@Copyright 2025 IFRN Campus SGA </p>
 </footer>
@@ -17,6 +19,7 @@
         width: 100%;
         background-color: #093800;
         color: rgb(255, 255, 255);
+        align-items: center;
         padding: 10px 0;
     }
     .if {
@@ -26,9 +29,9 @@
 		flex: 1; /* Ocupa espaço disponível */
 		min-width: 150px;
 	}
+
     .copy{
         font-style: italic;
-        align-items: end;
     }
 
     @media (max-width: 600px) {

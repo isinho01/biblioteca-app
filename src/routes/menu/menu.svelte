@@ -1,0 +1,26 @@
+
+<h1 class="titulop">Biblioteca Virtual</h1>
+<h2 class="subtitulop"> Conhecimento ao seu alcance, onde e quando você quiser.</h2>
+
+
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    html{
+        font-family: "Poppins", sans-serif;
+    }
+
+.titulop{
+    /* importando a fonte poppins para usar no site */
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 400%;
+}
+
+.subtitulop{
+    font-family: "Poppins", sans-serif;
+     font-weight: 100
+}
+
+
+</style>

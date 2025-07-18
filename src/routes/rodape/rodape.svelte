@@ -32,10 +32,12 @@
 
     .copy{
         font-style: italic;
+        display: flex;
+        justify-content: right;
     }
 
     @media (max-width: 600px) {
-		.logo {
+		.if {
 			margin: 0 auto; /* Centraliza logo */
 		}
     }

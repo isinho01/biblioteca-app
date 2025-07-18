@@ -1,8 +1,8 @@
 <!-- importando o componente do cabeçalho pra pagina principal -->
 <script>
-    import Cabecalhoteste from "./cabecalho/cabecalhoteste.svelte";
-    import Menuteste from "./menu/menu.svelte";
-    import Rodapeteste from "./rodape/rodape.svelte";
+    import Cabecalhoteste from "./cabecalho/Cabecalhoteste.svelte";
+    import Menuteste from "./menu/Menu.svelte";
+    import Rodapeteste from "./rodape/Rodape.svelte";
 </script>
 
 

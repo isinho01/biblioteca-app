@@ -5,6 +5,9 @@
 		alt="Logo do campus"
 	/>
 	<ul class="listas">
+		<li>
+			<a href="/destaques">Livros em Destaque</a>
+		</li>
 		<li>Recém Adquiridos</li>
 		<li>Área do Usuário</li>
 		<li>Contato</li>

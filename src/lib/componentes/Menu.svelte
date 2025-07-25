@@ -1,13 +1,12 @@
 
-<div class="primeiradiv"> 
-	<h1>Biblioteca Virtual</h1>
-	<h2>Conhecimento ao seu alcance, onde e quando você quiser.</h2>
-	<img id="mulher" src="/retrato-jovem-mulher-lendo-um-livro.png" alt="mulher com livro">
-	<h3> Desfrute de seu próximo livro aqui!</h3>
-</div>
-
+<script lang="ts">
+	const props = $props();
+</script>
+<h1 class="titulop">{props.titulo}</h1>
+<h2 class="subtitulop">Conhecimento ao seu alcance, onde e quando você quiser.</h2>
 
 <div class="livros_populares_principal">
+	<h3 class="tituloPopulares">Títulos Populares</h3>
 	<div class="livros_populares">
 		<img src="/domcasmurrolivro.jpg" alt="" />
 		<img src="/pequenacoreografialivro.jpg" alt="" />
@@ -33,6 +32,7 @@
 		font-size: 50px;
 		margin-left: 10%;
 	}
+<<<<<<< HEAD:src/routes/menu/menu.svelte
 	 
 	.primeiradiv h2{
 		color: white;
@@ -41,12 +41,26 @@
 
 	
 
+=======
+
+	.tituloPopulares{
+		display: flex;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		font-size: 250%;
+		margin-top: auto;
+		padding-top: 50px;
+		color: white;
+		justify-content: center;
+	}
+	
+>>>>>>> 32164c3388cb4c9b608c5ed6588a27983b216c44:src/lib/componentes/Menu.svelte
 	.livros_populares {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		gap: 16px;
-		margin-top: 20px;
+		margin-top: -50px;
 		flex-wrap: wrap;
 	}
 	.livros_populares img {
@@ -68,6 +82,7 @@
 		height: 500px;
 		
 	}
+<<<<<<< HEAD:src/routes/menu/menu.svelte
 
    #mulher{
 	   display: block;
@@ -93,5 +108,7 @@
 	   }
    }
 	
+=======
+>>>>>>> 32164c3388cb4c9b608c5ed6588a27983b216c44:src/lib/componentes/Menu.svelte
 	
 </style>

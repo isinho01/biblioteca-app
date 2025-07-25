@@ -1,5 +1,5 @@
 <script>
-    import Menuteste from "./menu/menu.svelte";
+    import Menu from "../lib/componentes/Menu.svelte";
 </script>
 
-<Menuteste/>
+<Menu titulo="Biblioteca Virtual"/>

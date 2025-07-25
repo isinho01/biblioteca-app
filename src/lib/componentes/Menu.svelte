@@ -32,7 +32,6 @@
 		font-size: 50px;
 		margin-left: 10%;
 	}
-<<<<<<< HEAD:src/routes/menu/menu.svelte
 	 
 	.primeiradiv h2{
 		color: white;
@@ -41,7 +40,6 @@
 
 	
 
-=======
 
 	.tituloPopulares{
 		display: flex;
@@ -54,7 +52,6 @@
 		justify-content: center;
 	}
 	
->>>>>>> 32164c3388cb4c9b608c5ed6588a27983b216c44:src/lib/componentes/Menu.svelte
 	.livros_populares {
 		display: flex;
 		justify-content: center;
@@ -82,7 +79,6 @@
 		height: 500px;
 		
 	}
-<<<<<<< HEAD:src/routes/menu/menu.svelte
 
    #mulher{
 	   display: block;
@@ -108,7 +104,5 @@
 	   }
    }
 	
-=======
->>>>>>> 32164c3388cb4c9b608c5ed6588a27983b216c44:src/lib/componentes/Menu.svelte
 	
 </style>

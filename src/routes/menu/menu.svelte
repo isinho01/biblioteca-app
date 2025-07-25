@@ -1,5 +1,11 @@
-<h1 class="titulop">Biblioteca Virtual</h1>
-<h2 class="subtitulop">Conhecimento ao seu alcance, onde e quando você quiser.</h2>
+
+<div class="primeiradiv"> 
+	<h1>Biblioteca Virtual</h1>
+	<h2>Conhecimento ao seu alcance, onde e quando você quiser.</h2>
+	<img id="mulher" src="/retrato-jovem-mulher-lendo-um-livro.png" alt="mulher com livro">
+	<h3> Desfrute de seu próximo livro aqui!</h3>
+</div>
+
 
 <div class="livros_populares_principal">
 	<div class="livros_populares">
@@ -17,19 +23,24 @@
 	html {
 		font-family: 'Poppins', sans-serif;
 	}
-
-	.titulop {
-		/* importando a fonte poppins para usar no site */
-		font-family: 'Poppins', sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		font-size: 400%;
+	
+	.primeiradiv {
+		background-color: #059a43;
 	}
 
-	.subtitulop {
-		font-family: 'Poppins', sans-serif;
-		font-weight: 100;
+	.primeiradiv h1{
+		color: white;
+		font-size: 50px;
+		margin-left: 10%;
 	}
+	 
+	.primeiradiv h2{
+		color: white;
+		margin-left: 10%;
+	}
+
+	
+
 	.livros_populares {
 		display: flex;
 		justify-content: center;
@@ -55,5 +66,32 @@
 		background-color: #059a43;
 		width: 100%;
 		height: 500px;
+		
 	}
+
+   #mulher{
+	   display: block;
+	   max-width: 100%;
+	   width: 100%;
+	   height: auto;
+	   object-fit: cover;
+	   min-width: 320px;
+	   min-height: 220px;
+	   margin-left: auto;
+	   margin-right: 16px;
+   }
+
+   /* if para responsividade */
+   @media (min-width: 600px) {
+	   #mulher {
+		   width: 520px;
+		   min-width: 400px;
+		   min-height: 320px;
+		   margin-left: auto;
+		   margin-right: 32px;
+		   display: block;
+	   }
+   }
+	
+	
 </style>

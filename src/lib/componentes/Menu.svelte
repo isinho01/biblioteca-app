@@ -1,7 +1,11 @@
-<h1 class="titulop">Biblioteca Virtual</h1>
+<script lang="ts">
+	const props = $props();
+</script>
+<h1 class="titulop">{props.titulo}</h1>
 <h2 class="subtitulop">Conhecimento ao seu alcance, onde e quando você quiser.</h2>
 
 <div class="livros_populares_principal">
+	<h3 class="tituloPopulares">Títulos Populares</h3>
 	<div class="livros_populares">
 		<img src="/domcasmurrolivro.jpg" alt="" />
 		<img src="/pequenacoreografialivro.jpg" alt="" />
@@ -30,12 +34,24 @@
 		font-family: 'Poppins', sans-serif;
 		font-weight: 100;
 	}
+
+	.tituloPopulares{
+		display: flex;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		font-size: 250%;
+		margin-top: auto;
+		padding-top: 50px;
+		color: white;
+		justify-content: center;
+	}
+	
 	.livros_populares {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		gap: 16px;
-		margin-top: 20px;
+		margin-top: -50px;
 		flex-wrap: wrap;
 	}
 	.livros_populares img {
@@ -56,4 +72,5 @@
 		width: 100%;
 		height: 500px;
 	}
+	
 </style>

@@ -1,11 +1,12 @@
 <script lang="ts">
 	import '../app.css';
-	import Cabecalhoteste from "./cabecalho/cabecalhoteste.svelte";
-	import Rodapeteste from "./rodape/rodape.svelte";
+	import Cabecalho from "../lib/componentes/Cabecalho.svelte";
+	import Rodape from "../lib/componentes/Rodape.svelte";
 	let { children } = $props();
 </script>
 
-<Cabecalhoteste/>
-<Rodapeteste/>
+<Cabecalho/>
+
 <!-- Usado pra carregar componente antes de outros componentes -->
 {@render children()}
+<Rodape/>

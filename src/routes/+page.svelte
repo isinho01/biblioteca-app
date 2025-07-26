@@ -1,16 +1,8 @@
-<!-- importando o componente do cabeçalho pra pagina principal -->
 <script>
-    import Cabecalhoteste from "./cabecalho/cabecalhoteste.svelte";
-    import Menuteste from "./menu/menu.svelte";
-
+    import Menu from "../lib/componentes/Menu.svelte";
 </script>
 
-
-
-
-<!-- utilizando o componente duas vezes como teste -->
-<Cabecalhoteste/>
-
-<Menuteste/>
-
-
+<Menu 
+    titulo="Biblioteca Virtual"
+    subtitulo="Conhecimento ao seu alcance, onde e quando você quiser."
+/>

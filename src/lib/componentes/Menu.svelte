@@ -91,7 +91,7 @@
 	   flex: 1 1 320px;
 	   box-sizing: border-box;
 	   border-radius: 16px;
-	   overflow: auto;
+	   overflow: visible;
 	   word-break: break-word;
    }
    @media (max-width: 900px) {

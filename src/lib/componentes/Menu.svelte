@@ -91,13 +91,12 @@
 	   flex: 1 1 320px;
 	   box-sizing: border-box;
 	   border-radius: 16px;
-	   overflow: hidden;
+	   overflow: auto;
 	   word-break: break-word;
    }
    @media (max-width: 900px) {
 	   .cabecalho-flex {
-		   flex-direction: column;
-		   align-items: stretch;
+		   align-items: center;
 	   }
 	   .titulosIniciais {
 		   max-width: 100%;

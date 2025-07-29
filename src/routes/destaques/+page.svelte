@@ -79,6 +79,7 @@ O universo particular das duas, porém, se quebra com a chegada de Filipa, bisav
 	}
 
 	.img img {
+		border-radius: 10px;
 		width: 300px;
 		height: 400px;
 	}

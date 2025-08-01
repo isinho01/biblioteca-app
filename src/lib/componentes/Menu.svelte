@@ -33,6 +33,13 @@
 		<img src="/aguavivalivro.jpg" alt="" />
 	</div>
 </div>
+<div class="convite-final">
+  <div class="convite-container">
+	<h3>Experimente Nosso Sistema!</h3>
+	<p>CADASTRE-SE<br>FAÇA PARTE</p>
+	<a href="#" class="btn-cadastro">Cadastrar Agora</a>
+  </div>
+</div>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -185,8 +192,71 @@
 		height: 500px;
 		
 	}
+	.convite-final {
+		background-color: #047a36;
+		width: 100%;
+		padding: 60px 20px;
+		text-align: center;
+	}
 
-	
-	
+	.convite-container {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 40px;
+		background-color: rgba(255, 255, 255, 0.1);
+		border-radius: 16px;
+		backdrop-filter: blur(5px);
+		border: 1px solid rgba(255, 255, 255, 0.2);
+	}
+
+	.convite-final h3 {
+		color: white;
+		font-size: 2rem;
+		margin-bottom: 16px;
+		font-weight: 600;
+	}
+
+	.convite-final p {
+		color: white;
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin-bottom: 24px;
+		line-height: 1.4;
+	}
+.btn-cadastro {
+		display: inline-block;
+		padding: 16px 40px;
+		background-color: white;
+		color: #047a36;
+		text-decoration: none;
+		border-radius: 50px;
+		font-weight: 700;
+		font-size: 1.1rem;
+		transition: all 0.3s ease;
+		border: 2px solid white;
+	}
+
+	.btn-cadastro:hover {
+		background-color: transparent;
+		color: white;
+		transform: translateY(-3px);
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	}
+
+	@media (max-width: 768px) {
+		.convite-container {
+			padding: 30px 20px;
+		}
+		.convite-final h3 {
+			font-size: 1.5rem;
+		}
+		.convite-final p {
+			font-size: 1.2rem;
+		}
+		.btn-cadastro {
+			padding: 12px 30px;
+		}
+	}
+
 	
 </style>

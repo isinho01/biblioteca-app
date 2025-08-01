@@ -1,21 +1,24 @@
 <div class="box">
 	<div class="img">
-		<img src="/domcasmurrolivro.jpg" alt="">
-		<p>Descrição do Livro</p>
-		<p>Escritor(a)</p>
-		<p>Ano de publicação</p>
+		<img src="/Livrosdestaque/capaopecado.jpg" alt="">
+		<p>Em Capão Pecado, as vidas valem muito pouco, quase nada. Tudo está sempre por um fio. Como escreve Ferréz, “o futuro fica mais pra frente, bem mais pra frente”. Tão pra frente que muitas vezes já é tarde demais.
+		Rael é um adolescente que quer sair do meio atroz de violência onde cresceu. Filho dedicado, se esforça para ter um bom emprego. Mas seu destino está prestes a mudar quando ele se apaixona por Paula, a namorada de um amigo.</p>
+		<p>Ferréz</p>
+		<p>2020</p>
 	</div>
 	<div class="img">
-		<img src="/aguavivalivro" alt="">
-		<p>Descrição do Livro</p>
-		<p>Escritor(a)</p>
-		<p>Ano de publicação</p>
+		<img src="/Livrosdestaque/memoriaspostumasdebrascubas.jpg" alt="">
+		<p>Esta obra prima marca o surgimento do Realismo no Brasil pelas mãos de Machado de Assis. Em sua narrativa autobiográfica, Brás Cubas, um filho privilegiado da alta sociedade, emerge como autor logo após sua morte, tecendo comentários perspicazes sobre sua própria obra.
+		A pintura desse cenário é permeada por tons de pessimismo, ironia e a indiferença característica da burguesia carioca da época. Essa incisiva radiografia social guiaria, dali em diante, os escritores do final do Segundo Império e exerceria influência notória sobre a literatura nacional.
+		Esta edição traz o texto integral e também inclui notas explicativas para termos menos usuais, facilitando assim a leitura e a compreensão da obra.</p>
+		<p>Machado de Assis</p>
+		<p>2023</p>
 	</div>
 	<div class="img">
-		<img src="/Lacos-de-Familia.png" alt="">
-		<p>Descrição do Livro</p>
-		<p>Escritor(a)</p>
-		<p>Ano de publicação</p>
+		<img src="/Livrosdestaque/vidassecas.jpg" alt="">
+		<p>Lançado originalmente em 1938, Vidas secas retrata a vida miserável de uma família de retirantes sertanejos obrigada a se deslocar de tempos em tempos para áreas menos castigadas pela seca. O pai, Fabiano, caminha pela paisagem árida da caatinga do Nordeste brasileiro com a sua mulher, Sinha Vitória, e os dois filhos, que não têm nome, sendo chamados apenas de “filho mais velho” e “filho mais novo”. São também acompanhados pela cachorrinha da família, Baleia, cujo nome é irônico, pois a falta de comida a fez muito magra. </p>
+		<p>Graciliano Ramos</p>
+		<p>2019</p>
 	</div>
 </div>
 

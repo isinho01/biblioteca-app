@@ -105,6 +105,29 @@ O universo particular das duas, porém, se quebra com a chegada de Filipa, bisav
 	</div>
 </div>
 
+<div class="box">
+	<div class="img">
+	<img src="/Livrosdestaque/authenticgames.livro.jpg" alt="authenticlivro">
+	<p>O mineiro Marco Túlio sempre foi apaixonado por games. Tão apaixonado que decidiu enfrentar a timidez e criar um canal no YouTube para falar dos jogos de que gostava. Com seu jeito simples e engraçado, Marco Túlio transformou o AuthenticGames em ponto de encontro para quase 4 milhões de crianças e adolescentes.</p>
+	<p>Marco Túlio AuthenticGames</p>
+	<p>2016</p>
+	</div>
+
+<div class = "img">
+	<img src="/Livrosdestaque/tiaxanda.livro.jpg" alt="">
+	<p>Alexandra Gurgel, criadora do canal Alexandrismos no Youtube, é conhecida por abordar em seus vídeos temas como autoaceitação, o movimento body positive, autoestima, relacionamentos e a luta contra a gordofobia.</p>
+	<p>Alexandra Gurgel</p>
+	<p>2018</p>
+</div>
+
+<div class = "img">
+	<img src="/Livrosdestaque/larissamanoel.livro.jpg" alt="">
+	<p>É unânime: não há criança ou adolescente que não tenha ouvido falar de Larissa Manoela. Protagonista da novela Carrossel, do SBT, em que viveu a enjoada Maria Joaquina, e da novela Cúmplices de um Resgate, na qual interpreta gêmeas, uma boa e a outra má, Larissa é a atriz que mais aparece no horário nobre da TV brasileira -- está no ar com a novela inédita e com a reprise de Carrossel.</p>
+	<p>Larissa Manoela</p>
+	<p>2016</p>
+</div>
+</div>
+
 <style>
 	.box{
 		display: flex;
